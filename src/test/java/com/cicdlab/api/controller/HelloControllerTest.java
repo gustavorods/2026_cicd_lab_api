@@ -11,6 +11,6 @@ public class HelloControllerTest {
 
         String response = controller.hello();
 
-        assertEquals("Hello CI/CDDDDDDD", response);
+        assertEquals("Hello CI/CD", response);
     }
 }
