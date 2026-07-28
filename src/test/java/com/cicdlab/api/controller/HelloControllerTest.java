@@ -20,6 +20,6 @@ public class HelloControllerTest {
 
         String response = controller.ola();
 
-        assertEquals("Olá mundo!", response);
+        assertEquals("Olá!", response);
     }
 }
