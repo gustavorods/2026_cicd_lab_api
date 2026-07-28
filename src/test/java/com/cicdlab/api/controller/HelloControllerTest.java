@@ -13,4 +13,13 @@ public class HelloControllerTest {
 
         assertEquals("Hello CI/CD", response);
     }
+
+    @Test
+    void shouldReturnOlaMessage() {
+        HelloController controller = new HelloController();
+
+        String response = controller.ola();
+
+        assertEquals("Olá mundo!", response);
+    }
 }
