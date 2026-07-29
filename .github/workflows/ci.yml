@@ -67,4 +67,4 @@ jobs:
           path: target
 
       - name: Build Docker image
-        run: docker build -t cicd-lab-api
+        run: docker build -t cicd-lab-api .
