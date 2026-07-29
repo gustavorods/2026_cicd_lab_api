@@ -19,6 +19,6 @@ class HelloControllerIntegrationTest {
                 .uri("/hello")
                 .exchange()
                 .expectStatus().isOk()
-                .expectBody(String.class).isEqualTo("Mensagem errada!");
+                .expectBody(String.class).isEqualTo("Hello CI/CD!");
     }
 }

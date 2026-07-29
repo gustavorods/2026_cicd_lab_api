@@ -26,6 +26,8 @@ jobs:
 
       - name: Run tests
         run: ./mvnw test
+        env:
+          APP_MESSAGE: ${{ secrets.APP_MESSAGE }}
 
   build:
     needs: test
