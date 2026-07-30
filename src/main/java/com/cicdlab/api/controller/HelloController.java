@@ -14,6 +14,6 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-        return message;
+        return message + "🚀";
     }
 }
