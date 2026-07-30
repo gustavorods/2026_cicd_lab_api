@@ -7,10 +7,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class HelloControllerTest {
     @Test
     void shouldReturnHelloMessage() {
-        HelloController controller = new HelloController();
+        HelloController controller = new HelloController("Hello CI/CD!");
 
         String response = controller.hello();
 
-        assertEquals("Hello CI/CD", response);
+        assertEquals("Hello CI/CD! 🚀", response);
     }
 }
